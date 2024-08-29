@@ -8,7 +8,7 @@ export default function Login() {
     const handleSubmit = async(e)=>{
         e.preventDefault();
         console.log(JSON.stringify({email:credentials.email,password:credentials.password}))
-      const response = await fetch("https://gofood-backend-lkpy.onrender.com/api/loginuser",{
+      const response = await fetch("https://gofood-backend-lkpy-b7ny.onrender.com/api/loginuser",{
         method:'POST',
         headers:{
             'Content-Type':'application/json'
