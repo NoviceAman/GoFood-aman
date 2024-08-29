@@ -35,7 +35,8 @@ mongoDB();
 // Define allowed origins
 const allowedOrigins = [
     'http://localhost:3000',
-    'https://gofood-v1.netlify.app'
+    'https://gofood-v1.netlify.app',
+    'https://gofood-aman.vercel.app'
 ];
 
 // Use CORS middleware with dynamic origin
